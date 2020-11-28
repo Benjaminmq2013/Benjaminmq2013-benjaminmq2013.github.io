@@ -152,6 +152,16 @@ h2{
 .project strong{
     font-family: "Fjalla One", sans-serif;
 }
+.moreprojects{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20%;
+}
+.moreprojects a{
+    text-decoration: none;
+    color: rgb(0, 60, 255);
+}
 .header{
     background-color: #1b2127;
     color: white;

@@ -68,3 +68,37 @@
         background-color: rgba(0, 0, 0, 0);
     }
 }
+
+/*  ********************* CLOSE ICON OPACITY */
+
+.close_opacity-true{
+    animation-name: opacity-activate;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+@keyframes opacity-activate{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity:1;
+    }
+}
+
+.close_opacity-false{
+    animation-name: opacity-desactivate;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+@keyframes opacity-desactivate{
+    0%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity:0;
+    }
+}

@@ -425,8 +425,9 @@ h2{
     position: absolute;
     right: 0;
     top: 0;
-    margin-right: 9vw;
+    margin-right: 7.5vw;
     margin-top: 5vh;
+    max-width: 19px;
 }
 .user_profile{
     display: flex;

@@ -5,10 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./animations.css">
 </head>
 <body>
 
     <header>
+
+        <section class="menu_opacity-panel panel_display-none">
+            <img src="./resources/close.png" alt="Close_menu" class="close_menu-btn">
+        </section>
+
+        <section class="panel-menu">
+            
+            <div class="panel-menu_container">
+
+                <div class="user_profile">
+                    <img src="./resources/user-image.png" alt="">
+                    <h2>Hola, Identifícate</h2>
+                </div>
+
+                <div class="compras lists">
+                    <ul>
+                        <li>Inicio</li>
+                        <li>Cuenta</li>
+                        <li>Pedidos</li>
+                        <li>Comprar de Nuevo</li>
+                        <li>Listas</li>
+                        <li>Tus artículos vistos recientemente</li>
+                        <li>Tus Recomendaciones</li>
+                        <li>Atención al cliente</li>
+                    </ul>
+                </div>
+                <div class="grey_separation menu-separation"></div>
+
+                <div class="explore">
+                    <h2>Explorar</h2>
+                    <p class="explore_title">CATEGORÍAS PRINCIPALES</p>
+                    <div class="lists">
+                        <ul class="lists_explore">
+                            <li>Hogar</li>
+                            <li>Salud</li>
+                            <li>Libros</li>
+                            <li>PC</li>
+                            <li>Ver Todos los departamentos</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <div class="grey_separation menu-separation"></div>
+
+                <div class="config">
+                    <h2>Configuración</h2>
+                    <div class="spanish">
+                        <img class="language_image" src="./resources/world_grey.png" alt="">
+                        <p>Español</p>
+                    </div>
+                    <div class="country menu_country">
+                        <img src="./resources/usa-flag.png" alt="">
+                        <p>Estados Unidos</p>
+                    </div>
+                    <p class="identifie_menu">Identifícate</p>
+                </div>
+            </div>
+        </section>
+
         <nav>
             <section class="logo_login-container">
                 <div class="menu_container">
@@ -362,5 +422,7 @@
 
     </footer>
 
+
+    <script src="./animations.js"></script>
 </body>
 </html>

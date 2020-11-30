@@ -1,0 +1,70 @@
+/*  ***************************** PANEL LEFT-MENU */
+.right{
+    animation-name: menu_appear;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes menu_appear{
+    0%{
+        left: -100vw;
+    }
+    100%{
+        left: 0vw;
+    }
+}
+
+
+.left{
+    animation-name: menu-disappear;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+@keyframes menu-disappear{
+    0%{
+        left: 0vw;
+    }
+    100%{
+        left: -100vw;
+    }
+}
+/*  *****************************  PANEL MENU OPACITY */
+
+.panel_display-none{
+    display: none;
+}
+.opacity-true{
+    /*background-color: rgba(0, 0, 0, 0.76);*/
+    animation-name: opacity-true;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes opacity-true{
+    0%{
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    100%{
+        background-color: rgba(0, 0, 0, 0.76);
+    }
+}
+
+.opacity-false{
+    animation-name: opacity-false;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+@keyframes opacity-false{
+    0%{
+        background-color: rgba(0, 0, 0, 0.76);
+    }
+
+    100%{
+        background-color: rgba(0, 0, 0, 0);
+    }
+}

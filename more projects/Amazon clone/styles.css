@@ -404,3 +404,99 @@ h2{
 .conditions small{
     margin: 3px 0px;
 }
+
+/*  ****************************  LEFT PANEL MENU  */
+.panel-menu{
+    position: fixed;
+    height: 100vh;
+    width: 80vw;
+    top: 0;
+    left: -100vw;
+    z-index: 3;
+}
+.panel-menu_container{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    position: relative;    
+    overflow: auto;
+}
+.close_menu-btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 9vw;
+    margin-top: 5vh;
+}
+.user_profile{
+    display: flex;
+    align-items: center;
+    padding:10px 0 4px 10px;
+    border-bottom: 1px solid grey;
+}
+
+.user_profile img{
+    height: auto;
+    max-width: 40px;
+}
+.user_profile h2{
+    font-size: 18px;
+    font-weight: 800;
+}
+.lists ul{
+    list-style: none;
+    color: black;
+    margin-left: 5vw;
+    padding: 0;
+}
+.lists li{
+    margin-top: 4vh;
+}
+.menu-separation{
+    width: 100%;
+    height: 5px;
+}
+
+.explore h2{
+    font-size: 18px;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 5vw;
+}
+.explore_title{
+    font-size: 16px;
+    color: grey;    
+    margin-left: 5vw;
+    margin-bottom: 0;
+}
+.config{
+    padding-left: 5vw;
+}
+.config h2{
+    font-size: 18px;
+    font-weight: 800;
+    margin-left: 0;
+}
+
+.menu_country{
+    justify-content: flex-start;
+    
+}
+.menu_country p{
+    color: black;
+    font-size: 16px;
+}
+.identifie_menu{
+    font-size: 16px;
+    margin-bottom: 7vh;
+}
+
+.menu_opacity-panel{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="logo_image" src="../resources/logo.png" alt="">
+        </nav>
+    </header>
+
+    <main>
+        <h2>Bienvenido</h2>
+        <div class="sign_in_container background-white">
+
+            <div class="checkbox_container">
+                <input type="checkbox" name="sign_in" id="sign_in-checkbox">
+                <h4 class="subtitle">Crear cuenta.</h4>
+                <span>¿Eres nuevo en Amazon?</span>
+            </div>
+            
+            <form action="" class="sign_in-wrapper">
+                <label for="name" >                    
+                    <input type="text" placeholder="Tu nombre" name="nombre" id="nombre" autocomplete="name" required>
+                </label>
+
+                <label for="correo">
+                    <input type="email" placeholder="Número de teléfono móvil o correo electrónico" name="email" id="email" autocomplete="email" required>
+                </label>
+
+                <label for="contraseña">
+                    <input type="password" placeholder="Cree una contraseña" name="password" id="password" required>
+                </label>
+                <div class="password_show_hide">
+                    <input type="checkbox"> 
+                    <span>Mostrar contraseña</span>
+                </div>
+                
+                <input type="submit" value="Continuar" id="submit_btn">
+            </form>
+            
+        </div>
+
+        <div class="login_container">
+
+            <div class="checkbox_container">
+                <input id="login_checkbox" type="checkbox">
+                <h4 class="subtitle">Iniciar sesión.</h4>
+                <span> ¿Ya eres cliente? </span>
+            </div>
+
+            <form class="login_form disappear" action="">
+                <label for="correo">
+                    <input type="email" placeholder="Número de teléfono móvil o correo electrónico" name="email" id="email_login" autocomplete="email" required>
+                </label>
+                <input type="submit" value="Continuar" id="submit_login-btn">
+
+                <p class="terms_conditions">Al continuar, aceptas las <a class="terms_and_conditions" href="">Condiciones de uso</a> y el <a class="terms_and_conditions" href="">Aviso de privacidad</a> de Amazon. </p>
+                <a class="terms_and_conditions" href="">¿Necesitas ayuda?</a>
+            </form>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <div class="footer_conditions-container">
+            <small>Conditions of Use</small>
+            <small>Privacy Notice</small>
+            <small>Interest-Based Ads</small>
+        </div>
+
+        <div class="footer_rights">
+            <small> © 1996-2020, Amazon.com, Inc. or its affiliates</small>
+        </div>
+    </footer>
+
+    <script src="./login.js"></script>
+</body>
+</html>

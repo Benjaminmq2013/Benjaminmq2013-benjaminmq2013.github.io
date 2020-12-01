@@ -102,3 +102,67 @@
         opacity:0;
     }
 }
+
+/*  ******************************************  PANEL DE UBICASIÓN  ********************************************  */
+.location_down{
+    animation-name: location_down;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+@keyframes location_down{
+    0%{
+        bottom: -40vh;
+    }
+    100%{
+        bottom: 0vh;
+    }
+}
+
+.location_up{
+    animation-name: location_up;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+@keyframes location_up{
+    0%{
+        bottom: 0vh;
+    }
+    100%{
+        bottom: -40vh;
+    }
+}
+
+/*  ***************************** location panel OPACITY */
+.location_opacity-true{
+    /*background-color: rgba(0, 0, 0, 0.603);*/
+    animation-name: location_opacity-true;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+@keyframes location_opacity-true{
+    0%{
+        background-color: rgba(0, 0, 0, 0);
+    }
+    100%{
+        background-color: rgba(0, 0, 0, 0.603);
+    }
+}
+
+.location_opacity-false{
+    animation-name: location_opacity-false;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+@keyframes location_opacity-false{
+    0%{
+        background-color: rgba(0, 0, 0, 0.603);
+    }
+    100%{
+        
+        background-color: rgba(0, 0, 0, 0);
+    }
+}

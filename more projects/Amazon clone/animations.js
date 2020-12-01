@@ -45,3 +45,35 @@ function menu_controll_bye(){
 }
 
 
+//  ***************************  ubicasión panel  ********************************
+const location_container = document.querySelector(".location");
+const location_panel = document.querySelector(".location_panel")
+const ready_btn_container = document.querySelector(".ready_btn-container")
+
+location_container.addEventListener("click", ubicasión_down)
+ready_btn_container.addEventListener("click", ubicasión_up)
+
+function ubicasión_down(){
+    location_panel.classList.remove("panel_display-none")
+    location_panel.classList.remove("location_up")
+    location_panel.classList.add("location_down")
+
+    //Opacity
+    ready_btn_container.classList.add("location_opacity-true")
+    ready_btn_container.classList.remove("location_opacity-false")
+}
+
+function ubicasión_up(){
+    location_panel.classList.remove("location_down")
+    location_panel.classList.add("location_up")
+
+    setTimeout(()=> {locacion_controll_opacity()}, 250)
+
+    //opacity
+    ready_btn_container.classList.remove("location_opacity-true")
+    ready_btn_container.classList.add("location_opacity-false")
+}
+
+function locacion_controll_opacity(){
+    location_panel.classList.add("panel_display-none")
+}

@@ -85,6 +85,3 @@ function iniciar_sesion(){
     window.open("./login_page/login.html", "_self")
 }
 
-function home_open(){
-    window.open("../index.html", "_self")
-}

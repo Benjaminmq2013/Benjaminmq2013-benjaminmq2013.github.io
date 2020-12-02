@@ -25,3 +25,9 @@ function sign_in_activate(){
     sign_in_container.classList.add("background-white")
     login_container.classList.remove("background-white")
 }
+
+/**********************************   ENLACES DE NAVEGACIÓN********************** */
+
+function home_open(){
+    window.open("../index.html", "_self")
+}

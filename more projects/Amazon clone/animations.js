@@ -77,3 +77,11 @@ function ubicasión_up(){
 function locacion_controll_opacity(){
     location_panel.classList.add("panel_display-none")
 }
+
+// enlace para botones y páginas
+
+//Onclick en HTML "button"
+function iniciar_sesion(){
+    window.open("./login_page/login.html", "_self")
+}
+

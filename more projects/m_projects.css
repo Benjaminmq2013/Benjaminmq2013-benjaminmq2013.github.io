@@ -5,7 +5,9 @@ body, html, figure{
 }
 
 .main_title{
-    
+    text-align: center;
+    padding: 0 6%;
+    font-size: 30px;
 }
 .item_container{
     border: 3px solid grey;
@@ -14,7 +16,22 @@ body, html, figure{
     height: 100px;
     padding: .5%;
     box-shadow:  0px 0px 2px;
+}
 
+.item_container{
+    position: relative;    
+    z-index: 1;   
+    min-width: 305px;
+}
+.opacity_container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    
+}
+
+.amazon_item{
     background-image: url(./resources/amazon_logo.png);
     background-size: 62%;
     background-repeat: no-repeat;
@@ -23,14 +40,17 @@ body, html, figure{
     background-color: #232f3e;
 }
 
-.item_container{
-    position: relative;    
-    z-index: 1;   
+.facebook_item{
+    background-image: url(./resources/facebook.webp);
+    background-size: 62%;
+    background-repeat: no-repeat;
+    background-position-y: 3%;
+    background-position-x: 54%;
+    background-color: #4967aa;
+
+    margin-top: 25px;
 }
-.opacity_container{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: 2;
-    
+a{
+    display: flex;
+    justify-content: center;
 }

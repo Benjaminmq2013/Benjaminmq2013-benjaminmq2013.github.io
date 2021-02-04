@@ -14,7 +14,6 @@
   [class^="icon-"], [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'icomoon' !important;
-    speak: never;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -435,18 +434,11 @@ figure{
 /* *************************   RESPONSIVE DESIGN  ************************* */
 
 @media screen and (max-width: 1024px){
-    body{
-        
-    }
+   
     
     
-    .project{
-        /*flex-wrap: wrap;
-        justify-content: center;*/
-    }
-    .container{
-        
-    }
+    
+    
     .hero{
         height: auto;
         position: relative;

@@ -54,3 +54,16 @@ a{
     display: flex;
     justify-content: center;
 }
+.project_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
+.device_icon{
+    height: 50px;
+    margin-right: 15px;
+}
+.mobile_icon{
+    margin-right:25px;
+}

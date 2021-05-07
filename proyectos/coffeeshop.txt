@@ -1,0 +1,3 @@
+CoffeeShop combina estilo con usabilidad, a través de tarjetas de precios, ítems de 
+                        beneficios del producto, animaciones y diseño adaptativo. CoffeeShop. pretende dar a conocer 6 variedades de cafés 
+                        y dar una idea de su sabor a los clientes. Formada por una landing page y una página de procesamiento de pagos.

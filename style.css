@@ -140,20 +140,44 @@ h2{
     margin: 10px 0px;
 }
 .project-date{
-    margin: 10px 0px;
+    margin-top: 10px;
+    margin-bottom: 0
 }
 .project-url{
-    margin: 10px 0px;
+    margin: 10px 0px;    
 }
 .project-description{
     font-size: 20px;
+    margin-top: 0;
 }
 .project strong{
     font-family: "Fjalla One", sans-serif;
 }
-.project_link{
-    color: blue;
+.project_github_link{
     text-decoration: none;
+    background-color: #3988FF;
+    color: #F8F8F8;
+    padding: 7px 21px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.github_png{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.project_link{
+    text-decoration: none;
+    background-color: #2A64D9;
+    color: #F8F8F8;
+    padding: 8px 18px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 600;
 }
 .project_link:hover{
     text-decoration: underline;
@@ -531,9 +555,7 @@ figure{
         font-size: 1.5em;
         margin-bottom: .3em;
     }
-    .project-url{
-        font-size: 1.5em;
-    }
+    
     .project-course{
         font-size: .7em;
     }
@@ -628,7 +650,13 @@ figure{
     }
     .menu{
         left: -100vh;
-    }                          
+    }      
+    .project_link{
+        font-size: 12px
+    }    
+    .project_github_link{
+        font-size: 12px;
+    }              
 }
 
 @media screen and (max-width: 320px){
@@ -637,6 +665,13 @@ figure{
     }
     .hero{
         padding: 2em 1em;
+    }
+    .project_link {
+        font-size: 10px;
+    }
+    .project_github_link {
+        font-size: 10px;
+        padding: 5px 21px;
     }
 }
 
@@ -652,4 +687,10 @@ figure{
     .moreprojects{
         margin-right: 28%;
     }
+}
+
+
+.projects_links_container{
+    display: flex;
+    align-items: center;
 }

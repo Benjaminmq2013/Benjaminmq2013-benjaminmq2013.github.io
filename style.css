@@ -654,14 +654,17 @@ figure{
         padding: 0 ;
     }
     .menu{
-        left: -100vh;
+        left: -100vw;
     }      
     .project_link{
         font-size: 12px
     }    
     .project_github_link{
         font-size: 12px;
-    }              
+    }   
+    .hero{
+        padding: 3em 2em;
+    }           
 }
 
 @media screen and (max-width: 320px){
